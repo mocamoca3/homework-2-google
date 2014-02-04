@@ -1,0 +1,112 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+body{
+    background-color: #fff;
+    font-family: arial, sans-serif;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    position: fixed;
+    height: 60px;
+    width: 1184px;
+    float: right;
+    text-align: right;
+    vertical-align: middle;
+    margin-top: 18px;
+    margin-bottom: 440px;
+    padding-right: 30px;
+    padding-left: 15px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 15px;
+    display: inline;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #000;
+}
+
+#sign-in{
+    display: inline;
+    width: 71px;
+    height: 30px; 
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 28px;
+    padding: 0 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #4285f4;
+    border-radius: 2px;
+    background-image: -webkit-linear-gradient(top,#4387fd,#4683ea);
+}
+
+
+//FOOTER
+
+.footer{
+    position: fixed;
+    margin-top: 440px;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
+    color: #666;
+    padding: 0px;
+    font-size: 13px;
+    line-height: 40px;
+    background-color: #f2f2f2;
+    border-top-color: #e4e4e4;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.nav-footer{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.nav-footer li{
+    padding-left: 27px;
+    display: inline;
+    color: #666;
+}
+
+
+.foot-link{
+    text-decoration: none;
+}
+
+#left-links{
+    float: left;
+}
+
+#right-links{
+    float: right;
+    padding-right: 40px;
+}
