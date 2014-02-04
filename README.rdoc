@@ -1,28 +1,12 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+*PROBLEMS AND SOLUTIONS*
+I had a lot of trouble getting things to center on the page, but I fixed that by making the position fixed rather than relative for many things, most notably in the home.css.scss file. 
 
-Things you may want to cover:
+Most of my problems stemmed from positioning on the page, especially making the footer stay at the bottom and the header stick to the top. I fixed that by applying margins to each of those things, although there must be a more elegant way of doing things. 
 
-* Ruby version
+I don't think anything is exactly in the right position, but it is close. I had some trouble interpretting the source tools for the webpage, so basically made my best effort. 
 
-* System dependencies
+I'm having issues making the sign in button look right. Will continue to work on it. 
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Also had trouble getting everything to work on heroku. I was looking at things using rails server, so I didn't notice for a long time. It kept getting mad because something was wrong with sqlite3. After consulting a lot of threads online, I created a new project, checking that heroku worked at every step, and migrated my HTML and CSS to the new project. Clumsy, but it worked. 
