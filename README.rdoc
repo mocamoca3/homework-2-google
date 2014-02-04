@@ -1,5 +1,8 @@
 == README
 
+HEROKU LINK
+http://shielded-citadel-9345.herokuapp.com/
+
 *PROBLEMS AND SOLUTIONS*
 I had a lot of trouble getting things to center on the page, but I fixed that by making the position fixed rather than relative for many things, most notably in the home.css.scss file. 
 
@@ -7,6 +10,14 @@ Most of my problems stemmed from positioning on the page, especially making the 
 
 I don't think anything is exactly in the right position, but it is close. I had some trouble interpretting the source tools for the webpage, so basically made my best effort. 
 
-I'm having issues making the sign in button look right. Will continue to work on it. 
+I had issues making the sign in button look right, but fixed that once I figured out that the easiest way to do it would be to change its class from "nav-link" to something new.  
 
 Also had trouble getting everything to work on heroku. I was looking at things using rails server, so I didn't notice for a long time. It kept getting mad because something was wrong with sqlite3. After consulting a lot of threads online, I created a new project, checking that heroku worked at every step, and migrated my HTML and CSS to the new project. Clumsy, but it worked. 
+
+3 PROJECT IDEAS
+1. Family Tree
+Kind of like social networking for your family. Can add people to the family tree, see a graphic representation, send messages to family members, add biography pages for specific people and historic or informational pages for important places or events. Can be currated by a single or multiple family members, who can then send requests to others to add in information. Ability to view the family from any person's point of view and determine the actual relationship between two people. Ability to add pictures of interesting things, like a gallery of family heirlooms or pictures of a family reunion. Can add documents, like recipes or things that family members have produced. 
+2. Student Book Website
+Based on school or location, find students selling textbooks you want or looking for the books you are selling. Need to belong to a school, but encourages selling between students from nearby schools as well. 
+3. Theater Costumes and Props
+A site for sharing ideas for props and costumes for specific plays. Things filed by each play, can be as simple as a picture of a cast member or as complex as a full tutorial on how to make something. For the use of amateaur theater, but professional theater could also use it to showcase their work and take a look at the work of rising professionals. Contributors could share a little contact info, and users could leave comments if they have tried something from the site or have suggestions on how to make things better. So, a little educational, a little social, and a little professional. 
